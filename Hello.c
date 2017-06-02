@@ -2,6 +2,7 @@
 
 int main(void)
 {
-	printf("Hello world! \n");
+	// 출력 함수
+	printf("Hello world!\n");
 	return 0;
 }
