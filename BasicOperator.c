@@ -15,7 +15,6 @@ int main(void)
 	printf("%d/%dÀÇ ¸ò=%d \n", num1, num2, num1 / num2);
 	// 나머지
 	printf("%d/%dÀÇ ³ª¸ÓÁö =%d \n", num1, num2, num1 % num2);
-	return 0;
 	
 	// 복합 연산자
 	int num3 = 3;
@@ -41,4 +40,30 @@ int main(void)
 	num6 = -num6;
 	printf("num6: %d \n", num6);
 	return 0;
+	
+	// 증감 연산자
+	int num7 = 10;
+	int num8 = 12;
+	printf("num7: %d", num7);
+	printf("num7: %d", num7++);
+	prinff("num7: %d", ++num7);
+	
+	printf("num8: %d", num8);
+	printf("num8: %d", ++num8);
+	printf("num8: %d", num8++);
+	
+	printf("num7: %d", (num7--)+2);
+	
+	// 비교 연산자
+	int num9 = 2;
+	int num10 = 3;
+	int result1, result2, result3;
+	
+	result1 = (num9 == num10);
+	result2 = (num9 <= num10);
+	result3 = (num9 >= num10);
+	
+	printf("result1: %d \n", result1);
+	printf("result2: %d \n", result2);
+	printf("result3: %d \n", result3);
 }
