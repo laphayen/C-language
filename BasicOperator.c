@@ -66,4 +66,19 @@ int main(void)
 	printf("result1: %d \n", result1);
 	printf("result2: %d \n", result2);
 	printf("result3: %d \n", result3);
+	
+	// &&, ||, ! 연산자
+	int num11 = 4;
+	int num12 = 5;
+	int result4, result5, result6;
+	
+	result4 = (num11 == 4 && num12 == 5);
+	result5 = (num11 < 5 || num12 > 5);
+	result6 = (!num11);
+	
+	printf("result4: %d \n", result4);
+	printf("result5: %d \n", result5);
+	printf("result6: %d \n", result6);
+	
+	// 비트 연산자
 }
