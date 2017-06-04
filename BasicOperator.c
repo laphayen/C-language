@@ -21,39 +21,40 @@ void main()
 	int num3 = 3;
 	int num4 = 6;
 
-	num1 += 3;
-	printf("num1: %d \n", num1);
-	num2 -= 4;
-	printf("num2: %d \n", num2);
-	num1 *= 2;
-	printf("num1: %d \n", num1);
-	num2 /= 3;
-	printf("num2: %d \n", num2);
-	num1 %= 2;
-	printf("num1: %d \n", num1);
+	num3 += 3;
+	printf("+- num3: %d \n", num3);
+	num4 -= 4;
+	printf("-= num4: %d \n", num4);
+	num3 *= 2;
+	printf("*= num3: %d \n", num3);
+	num4 /= 3;
+	printf("/= num4: %d \n", num4);
+	num3 %= 2;
+	printf("%= num3: %d \n", num3);
 
 	// 부호 연산자
 	int num5 = +2;
 	int num6 = -3;
 
 	num5 = -num5;
-	printf("num5: %d \n", num5);
+	printf("+ num5: %d \n", num5);
 	num6 = -num6;
-	printf("num6: %d \n", num6);
+	printf("- num6: %d \n", num6);
 	return 0;
 
 	// 증가, 감소 연산자
 	int num7 = 10;
 	int num8 = 12;
+	int result0;
 	printf("num7: %d \n", num7);
-	printf("num7: %d \n", num7++);
-	printf("num7: %d \n", ++num7);
+	printf("num7++: %d \n", num7++);
+	printf("++num7: %d \n", ++num7);
 
 	printf("num8: %d \n", num8);
-	printf("num8: %d \n", ++num8);
-	printf("num8: %d \n", num8++);
+	printf("++num8: %d \n", ++num8);
+	printf("num8++: %d \n", num8++);
 
-	printf("num7: %d \n", (num7--) + 2);
+	printf("result0: %d \n", (num7--) + 2);
 
 	// 관계 연산자(<, >, ==, !=, <=, >=)
 	int num9 = 2;
