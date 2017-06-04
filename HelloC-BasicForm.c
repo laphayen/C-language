@@ -3,7 +3,7 @@
 
 
 // main 함수 시작
-int main(void)
+void main()
 {
 	/*
 	블록 주석
