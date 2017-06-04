@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int main(void)
+void main()
 {
 	// 대입 연산자, 콤마 연산자
 	int num1 = 7, num2 = 2;
