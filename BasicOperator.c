@@ -3,8 +3,9 @@
 
 int main(void)
 {
-	//   기본 연산자
+	// 대입 연산자, 콤마 연산자
   	int num1 = 7, num2 = 2;
+	// 산술 연산자
 	// 덧셈
 	printf("%d+%d=%d \n", num1, num2, num1 + num2);
 	// 뺄셈
@@ -13,7 +14,7 @@ int main(void)
 	printf("%d*%d=%d \n", num1, num2, num1 * num2);
 	// 나눗셈
 	printf("%d/%dÀÇ ¸ò=%d \n", num1, num2, num1 / num2);
-	// 나머지
+	// 나머지 반환
 	printf("%d/%dÀÇ ³ª¸ÓÁö =%d \n", num1, num2, num1 % num2);
 	
 	// 복합 연산자
@@ -41,7 +42,7 @@ int main(void)
 	printf("num6: %d \n", num6);
 	return 0;
 	
-	// 증감 연산자
+	// 증가, 감소 연산자
 	int num7 = 10;
 	int num8 = 12;
 	printf("num7: %d", num7);
@@ -54,7 +55,7 @@ int main(void)
 	
 	printf("num7: %d", (num7--)+2);
 	
-	// 비교 연산자
+	// 관계 연산자(<, >, ==, !=, <=, >=)
 	int num9 = 2;
 	int num10 = 3;
 	int result1, result2, result3;
@@ -67,18 +68,19 @@ int main(void)
 	printf("result2: %d \n", result2);
 	printf("result3: %d \n", result3);
 	
-	// &&, ||, ! 연산자
+	// 논리 연산자(&&, ||, !)
 	int num11 = 4;
 	int num12 = 5;
 	int result4, result5, result6;
 	
+	// 논리곱
 	result4 = (num11 == 4 && num12 == 5);
+	// 논리합
 	result5 = (num11 < 5 || num12 > 5);
+	// 논리부정
 	result6 = (!num11);
 	
 	printf("result4: %d \n", result4);
 	printf("result5: %d \n", result5);
 	printf("result6: %d \n", result6);
-	
-	// 비트 연산자
 }
