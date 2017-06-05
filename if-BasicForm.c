@@ -20,6 +20,8 @@ void main()
 	// if가 아닐 경우 실행
 	else if (num > 11618)
 		printf("num은 11618보다 큽니다. \n");
+	else if (num < 11618)
+		printf("num은 11618보다 작습니다. \n");
 	// if와 else가 아닐 경우 실행
 	else
 		printf("num은 11618이 아닙니다. \n"); 
