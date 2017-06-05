@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 void main()
@@ -5,9 +6,9 @@ void main()
 	int num = 11618;
 
 	if (num == 11618)
-		printf("numÀº 11618ÀÔ´Ï´Ù.");
+		printf("num은 11618입니다.");
 	else if (num > 11618)
 		printf("num은 11618보다 큽니다.");
 	else
-		printf("numÀº 11618ÀÌ ¾Æ´Õ´Ï´Ù.");
+		printf("num은 11618이 아닙니다.");
 }
