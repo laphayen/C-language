@@ -12,12 +12,12 @@ void main()
 	else
 		printf("대문자 A가 아닙니다. \n");
 
-
 	// if - else if - else
 	// if - 식
 	if (num == 11618)
 		printf("num은 11618입니다. \n");
 	// if가 아닐 경우 실행
+	// 1개 이상 가능
 	else if (num > 11618)
 		printf("num은 11618보다 큽니다. \n");
 	else if (num < 11618)
