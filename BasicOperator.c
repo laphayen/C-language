@@ -19,7 +19,6 @@ void main()
 	int num12 = 5;
 	int result4, result5, result6;
 
-
 	// 산술 연산자
 	// 덧셈
 	printf("%d+%d=%d \n", num1, num2, num1 + num2);
@@ -33,7 +32,6 @@ void main()
 	printf("%d%%d=%d \n", num1, num2, num1 % num2);
 
 	// 복합 연산자
-
 	num3 += 3;
 	printf("+- num3: %d \n", num3);
 	num4 -= 4;
@@ -63,7 +61,6 @@ void main()
 	printf("result0: %d \n", (num7--) + 2);
 
 	// 관계 연산자(<, >, ==, !=, <=, >=)
-
 	result1 = (num9 == num10);
 	result2 = (num9 <= num10);
 	result3 = (num9 >= num10);
