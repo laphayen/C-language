@@ -16,5 +16,18 @@ int main(void)
 		printf("%d * %d = %d \n", dan, num, dan*num);
 		num++;
 	}
+	
+		// while 중첩
+	// Ex) multiplicationTable
+	while (dan<10)
+	{
+		num = 1;
+		while (num <10)
+		{
+			printf("%d * %d = %d \n", dan, num, dan*num);
+			num++;
+		}
+		dan++;
+	}
 	return 0;
 }
