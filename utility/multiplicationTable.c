@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main(void)
@@ -29,7 +30,7 @@ int main(void)
 		dan++;
 	}
 
-	// for 중첩
+	// for 중첩 - 전체 출력
 	for (dan = 2; dan < 10; dan++)
 	{
 		for (num = 0; num < 10; num++)
