@@ -3,17 +3,44 @@
 
 void main()
 {
-	// ÃÊ±â½Ä - 1¹ø ½ÇÇà
+	// ì´ˆê¸°ì‹ - 1ë²ˆ ì‹¤í–‰
 	int num = 0;
 	int sum = 0;
 	int i;
 	int dan = 0;
 
-	for ( num = 0; num < 3; num++)	// Á¶°Ç½Ä - ¹İº¹ °áÁ¤, Áõ°¨½Ä - ¸¶Áö¸· ¿¬»ê
+	for ( num = 0; num < 3; num++)	// ì¡°ê±´ì‹ - ë°˜ë³µ ê²°ì •, ì¦ê°ì‹ - ë§ˆì§€ë§‰ ì—°ì‚°
 	{
 		printf("num: %d \n", num);
 	}
 	puts("");
 
+
+	// Ex) ~ê¹Œì§€ í•©ê³„
+	printf("numê¹Œì§€ì˜ í•©ê³„ \n");
+	printf("num: ");
+	scanf("%d", &num);
+
+	// ì¤‘ê´„í˜¸ ìƒëµ ê°€ëŠ¥ - 1ì¤„ ì‹¤í–‰
+	for (i = 0; i < num+1; i++)
+		sum += i;
+
+	printf("%d ê¹Œì§€ì˜ í•©ê³„: %d", num, sum);
+
+	// for ë¬´í•œ ë£¨í”„ - ì¡°ê±´ì‹X
+	// ë¬´í•œ ë£¨í”„ - Ctrl + C
+	for (; ; )
+	{
+		printf("ë¬´í•œ ë£¨í”„ ë°˜ë³µ \n");
+	} 
+
+	// for ì¤‘ì²©
+	for ( dan = 2; dan < 10; dan++)
+	{
+		for ( num = 0; num < 10; num++)
+		{
+			printf("%d * %d = %d \n", dan, num, dan*num);
+		}
+	}
 	return 0;
 }
