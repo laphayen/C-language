@@ -8,10 +8,13 @@ void main()
 
 	do
 	{
-		printf("¼ıÀÚ ÀÔ·Â(0 - Á¾·á): ");
+		printf("ìˆ«ì ì…ë ¥(0 - ì¢…ë£Œ): ");
 		scanf("%d", &num);
 		sum += num;
 	} while (num != 0);
 
+	// ì¶œë ¥
+	printf("í•©ê³„: %d \n", sum);
+	
 	return 0;
 }
