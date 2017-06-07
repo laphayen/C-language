@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main(void)
@@ -28,6 +27,15 @@ int main(void)
 			num++;
 		}
 		dan++;
+	}
+
+	// for 중첩
+	for (dan = 2; dan < 10; dan++)
+	{
+		for (num = 0; num < 10; num++)
+		{
+			printf("%d * %d = %d \n", dan, num, dan*num);
+		}
 	}
 
 	return 0;
