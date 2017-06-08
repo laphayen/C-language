@@ -4,15 +4,15 @@
 void main()
 {
 	// ? :
-	// »ïÇ×¿¬»êÀÚ(Ternary operator) - ÇÇ¿¬»êÀÚÀÇ ¼ö: 3
-	// Àý´ë°ª ¹ÝÈ¯
+	// ì‚¼í•­ì—°ì‚°ìž(Ternary operator) - í”¼ì—°ì‚°ìžì˜ ìˆ˜: 3 
 	int input;
 	int abs;
 
-	printf("Á¤¼ö ÀÔ·Â: ");
+	printf("ì •ìˆ˜ ìž…ë ¥: ");
 	scanf("%d", &input);
 
+	// ì ˆëŒ€ê°’ ë°˜í™˜
 	abs = input > 0 ? input : input*(-1);
-	printf("Àý´ë°ª: %d \n", abs);
+	printf("ì ˆëŒ€ê°’: %d \n", abs);
 
 }
