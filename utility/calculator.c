@@ -17,7 +17,7 @@ int main(void)
 		printf("num1: ");
 		printf("%f", &num2);
 		puts("");
-		printf("1. µ¡¼À		2. »¬¼À		3. °ö¼À		4.³ª´°¼À	0.Á¾·á");
+		printf("1. ë§ì…ˆ		2. ëº„ì…ˆ		3. ê³±ì…ˆ		4.ë‚˜ëˆ—ì…ˆ	0.ì¢…ë£Œ");
 		scanf("%f", &oper);
 		puts("");
 
