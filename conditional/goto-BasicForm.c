@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int num;
 	printf("양수 입력: ");
