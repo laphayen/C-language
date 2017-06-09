@@ -4,7 +4,7 @@
 void main()
 {
 	int num;
-	printf("¾ç¼ö ÀÔ·Â: ");
+	printf("ì–‘ìˆ˜ ìž…ë ¥: ");
 
 	scanf("%d", &num);
 
@@ -16,15 +16,15 @@ void main()
 		goto remainder;
 
 num1:
-	printf("1 ÀÔ·Â \n");
+	printf("1 ìž…ë ¥ \n");
 	goto end;
 
 num2:
-	printf("2 ÀÔ·Â \n");
+	printf("2 ìž…ë ¥ \n");
 	goto end;
 
 remainder:
-	printf("³ª¸ÓÁö ÀÔ·Â \n");
+	printf("ë‚˜ë¨¸ì§€ ìž…ë ¥ \n");
 	goto end;
 
 end:
