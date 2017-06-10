@@ -10,6 +10,7 @@ int main()
 	{
 		if(num % 2 == 0)
 		{
+			// 건너뛴다 - while문 실행
 			continue;
 		}
 		printf("%d \n", num);
