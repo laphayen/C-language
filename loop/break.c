@@ -11,7 +11,7 @@ void main()
 		sum += num;
 		if (num > 99)
 		{
-			// ¹Ýº¹¹® Å»Ãâ
+			// 반복문 탈출 - while - if X
 			break;
 		}
 		num++;
