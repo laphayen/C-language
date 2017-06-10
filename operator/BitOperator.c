@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int num1 = 10;	// 00000000 00000000 00000000 00001010
 	int num2 = 15;	// 00000000 00000000 00000000 00001111
@@ -30,4 +30,6 @@ void main()
 	// >>연산자: 오른쪽 이동
 	result6 = num2 >> 2; 
 	printf(">> result6: %d \n", result6);
+	
+	return 0;
 }
