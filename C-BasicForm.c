@@ -1,7 +1,6 @@
 //헤더 파일 선언
 #include <stdio.h>
 
-
 // main 함수 시작
 void main()
 {
