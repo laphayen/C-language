@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	int num = 1;
 	printf("start! \n");
