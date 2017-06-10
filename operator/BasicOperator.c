@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-void main()
+int main()
 {
 	// 대입 연산자, 콤마 연산자
 	int num1 = 7, num2 = 2; 
@@ -80,4 +80,6 @@ void main()
 	printf("result4: %d \n", result4);
 	printf("result5: %d \n", result5);
 	printf("result6: %d \n", result6);
+	
+	return 0;
 }
