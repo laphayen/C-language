@@ -11,7 +11,7 @@ void main()
 	printf("정수 입력: ");
 	scanf("%d", &input);
 
-	// 절대값 반환
+	// Ex) 절대값 반환
 	abs = input > 0 ? input : input*(-1);
 	printf("절대값: %d \n", abs);
 
