@@ -9,7 +9,7 @@ int puls(void)
 	return 0;
 }
 
-int SimpleFuncTwo(void)
+int minus(void)
 {
 	int num1 = 20;
 	int num2 = 30;
