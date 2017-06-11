@@ -21,8 +21,8 @@ int minus(void)
 int main(void)
 {
 	int num = 17;
-	SimpleFuncOne();
-	SimpleFuncTwo();
+	plus();
+	minus();
 	printf("main num: %d \n", num);
 	return 0;
 }
