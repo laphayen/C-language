@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int SimpleFuncOne(void)
+int puls(void)
 {
 	int num = 10;
 	num++;
