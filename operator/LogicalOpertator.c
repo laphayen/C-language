@@ -7,12 +7,12 @@ int main()
 	int num2 = 1;
 	int result1, result2, result3;
 
-	// ³í¸® ¿¬»êÀÚ(&&, ||, !)
-	// ³í¸®°ö
+	// ë…¼ë¦¬ ì—°ì‚°ì(&&, ||, !)
+	// ë…¼ë¦¬ê³±
 	result1 = (num1 == 11618 && num2 == 11);
-	// ³í¸®ÇÕ
+	// ë…¼ë¦¬í•©
 	result2 = (num1 < 11618 || num2 > 1);
-	// ³í¸®ºÎÁ¤
+	// ë…¼ë¦¬ë¶€ì •
 	result3 = (!num1);
 
 	printf("result1: %d \n", result1);
