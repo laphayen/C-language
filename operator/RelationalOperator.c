@@ -18,4 +18,9 @@ int main()
 	printf("result1: %d \n", result1);
 	printf("result2: %d \n", result2);
 	printf("result3: %d \n", result3);
+	printf("result4: %d \n", result4);
+	printf("result5: %d \n", result5);
+	printf("result6: %d \n", result6);
+
+	return 0;
 }
