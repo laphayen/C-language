@@ -3,19 +3,19 @@
 
 int main()
 {
-	// »ê¼ú ¿¬»êÀÚ
+	// ì‚°ìˆ  ì—°ì‚°ì
 
 	int num1 = 16;
 	int num2 = 18;
 
-	// ´ÜÇ× ¿¬»êÀÚ	
+	// ë‹¨í•­ ì—°ì‚°ì	
 	printf("%d + %d = %d \n", num1, num2, num1 + num2);
 	printf("%d - %d = %d \n", num1, num2, num1 - num2);
 	printf("%d * %d = %d \n", num1, num2, num1 * num2);
 	printf("%d / %d = %d \n", num1, num2, num1 / num2);
 	printf("%d % %d = %d \n", num1, num2, num1 % num2);
 
-	// º¹ÇÕ ¿¬»êÀÚ
+	// ë³µí•© ì—°ì‚°ì
 	num1 += 3;
 	printf("num1 += 2 = &d \n", num1);
 	num2 -= 4;
