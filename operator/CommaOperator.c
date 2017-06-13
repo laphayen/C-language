@@ -3,10 +3,10 @@
 
 int main()
 {
-	// ÄŞ¸¶ ¿¬»êÀÚ - ³ª¿­
+	// ì½¤ë§ˆ ì—°ì‚°ì - ë‚˜ì—´
 	int num1 = 2, num2 = 3;
 
-	printf("%d %d \n", num1, num2);
+	printf("num1: %d \nnum2: %d \n", num1, num2);
 
 	return 0;
 }
