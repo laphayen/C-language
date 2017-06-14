@@ -19,30 +19,6 @@ int main()
 	int num12 = 5;
 	int result4, result5, result6;
 
-	// 산술 연산자
-	// 덧셈
-	printf("%d+%d=%d \n", num1, num2, num1 + num2);
-	// 뺄셈
-	printf("%d-%d=%d \n", num1, num2, num1 - num2);
-	// 곱셈
-	printf("%d*%d=%d \n", num1, num2, num1 * num2);
-	// 나눗셈
-	printf("%d/%d=%d \n", num1, num2, num1 / num2);
-	// 나머지 반환
-	printf("%d%%d=%d \n", num1, num2, num1 % num2);
-
-	// 복합 연산자
-	num3 += 3;
-	printf("+- num3: %d \n", num3);
-	num4 -= 4;
-	printf("-= num4: %d \n", num4);
-	num3 *= 2;
-	printf("*= num3: %d \n", num3);
-	num4 /= 3;
-	printf("/= num4: %d \n", num4);
-	num3 %= 2;
-	printf("%= num3: %d \n", num3);
-
 	// 부호 연산자
 	num5 = -num5;
 	printf("+ num5: %d \n", num5);
