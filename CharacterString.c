@@ -3,14 +3,14 @@
 
 void main()
 {
-	// char¹è¿­À» ÀÌ¿ëÇØ ¹®ÀÚ¿­ ÀÔ·Â
+	// charë°°ì—´ì„ ì´ìš©í•´ ë¬¸ìì—´ ì…ë ¥
 	int i;
 	char name[32];
 
-	printf("ÀÌ  ¸§: ");
+	printf("ì´  ë¦„: ");
 	
-	// ¹è¿­ & ÇÊ¿ä ¾øÀ½
+	// ë°°ì—´ &í•„ìš”X
 	scanf("%s", name);	
 
-	printf("ÀÌ  ¸§: %s \n", name);
+	printf("ì´  ë¦„: %s \n", name);
 }
