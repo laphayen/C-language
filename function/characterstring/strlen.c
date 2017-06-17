@@ -7,7 +7,8 @@
 void main()
 {
 	// strlen 문자열의 길이 계산 후 반환
-	size_t strlen(const char *string); // NULL 문자를 포함하지 않고 길이반환
+	// NULL 문자를 포함하지 않고 길이반환
+	size_t strlen(const char *string); 
 
 	char Array[] = "11618nathan";
 
