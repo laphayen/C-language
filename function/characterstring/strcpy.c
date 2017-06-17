@@ -7,7 +7,6 @@
 void main()
 {
 	// strcpy - 문자열 복사 함수
-
 	char original[] = "11618nathan";
 
 	// 복사할 파일보다 배열의 크기 이상 지정 -> 오버플로우 방지
