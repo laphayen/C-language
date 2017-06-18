@@ -7,6 +7,7 @@
 void main()
 {
 	// 문자열 덧붙이기
+	// source를 destination뒤에 붙임
 	char * strcat(char * destination, const char * source);
 
 	char str1[20] = "11618";
