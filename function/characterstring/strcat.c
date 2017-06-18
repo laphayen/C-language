@@ -1,12 +1,12 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ¿­ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ìì—´ í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <string.h>
 
 void main()
 {
-	// ¹®ÀÚ¿­ µ¡ºÙÀÌ±â
+	// ë¬¸ìì—´ ë§ë¶™ì´ê¸°
 	char * strcat(char * destination, const char * source);
 
 	char str1[20] = "11618";
