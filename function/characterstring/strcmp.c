@@ -8,6 +8,8 @@ void main()
 {
 	// 두 문자열 동일 확인 함수
 	// str1의 처음 num개의 문자를 str2의 처음 num개의 문자와 비교
+	int strcmp(const char * str1, const char * str2);
+
 	int strcmp(const char *s1, const char *s2);
 
 	char Array[] = "11618nathan";
