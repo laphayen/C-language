@@ -7,6 +7,9 @@
 void main()
 {
 	// strcpy - 문자열 복사 함수
+	// dest에 전달된 값을 반환
+	char* strcpy(char *dest, const char *src);
+	
 	char original[] = "11618nathan";
 
 	// 복사할 파일보다 배열의 크기 이상 지정 -> 오버플로우 방지
