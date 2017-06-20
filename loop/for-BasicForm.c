@@ -9,6 +9,7 @@ void main()
 	int i;
 	int dan = 0;
 
+	// 반복문 
 	for ( num = 0; num < 3; num++)	// 조건식 - 반복 결정, 증감식 - 마지막 연산
 	{
 		printf("num: %d \n", num);
