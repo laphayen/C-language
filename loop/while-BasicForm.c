@@ -7,6 +7,7 @@ void main()
 	int dan = 2;
 	int num = 0;
 
+	// while 
 	while (num < 10)	// 반복의 조건 - 10회 반복
 	{
 		printf("while문 반복 %d \n", num);
