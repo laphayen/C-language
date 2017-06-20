@@ -6,6 +6,7 @@ void main()
 	int num = 1;
 	int sum = 0;
 
+	// 반복문 
 	while (1)
 	{
 		sum += num;
@@ -18,5 +19,6 @@ void main()
 	}
 
 	printf("num: %d \n", num);
+	
 	printf("sum: %d \n", sum);
 }
