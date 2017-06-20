@@ -5,7 +5,8 @@ void main()
 {
 	int sum = 0;
 	int num = 0;
-
+	
+	// 먼저 
 	do
 	{
 		printf("숫자 입력(0 - 종료): ");
