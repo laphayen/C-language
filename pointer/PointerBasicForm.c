@@ -1,15 +1,19 @@
+
 #include <stdio.h>
 
 void main()
 {
-	int num;
-	int * p;
-	
-	*p = &num;
-	
-	printf("%d", *p);
+	int num = 11618;
 
-	int arr[3] = { 1,2,3 };
+	// int형 포인터 변수
+	int * pointer;
 
-	printf("%d\n", *arr);
+	pointer = &num;
+
+	printf("pointer: %d \n", *pointer);
+
+	// 포인터 연산
+	(*pointer) -= 11618;
+
+	printf("pointer: %d \n", *pointer);
 }
