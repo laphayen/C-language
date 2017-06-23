@@ -6,7 +6,7 @@ void main()
 	// char배열을 이용해 문자열 입력
 	int i;
 	char name[32];
-	char id[] = "11618nathan";
+	char id[12] = "11618nathan";
 
 	printf("이  름: ");
 
@@ -19,5 +19,9 @@ void main()
 	// 배열 크기
 	printf("id 배열의 크기: %d \n", sizeof(id));
 
-}
+	// 널  문자 문자형
+	printf("정수형: %c \n", id[12]);
 
+	// 널  문자 정수형
+	printf("정수형: %d \n", id[12]);
+}
