@@ -15,7 +15,7 @@ void main()
 	// 복사할 파일보다 배열의 크기 이상 지정 -> 오버플로우 방지
 	char copy[20];
 
-	// (복사할 위치, 위치);
+	// stycopy(복사할 위치, 위치);
 	strcpy(copy, original);
 
 	printf("%s \n", copy);
