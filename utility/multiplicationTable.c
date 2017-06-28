@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int main(void)
+void main(void)
 {
 	int dan = 0;
 	int num = 1;
@@ -39,5 +39,4 @@ int main(void)
 		}
 	}
 
-	return 0;
 }
