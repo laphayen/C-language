@@ -11,6 +11,6 @@ void main()
 	num2 = printf("nathan\n");
 	num3 = printf("GitHub\n");
 
-	// 문자열 길이 반환 - \n 포함
+	// 문자열 길이 반환 - \n 포함 - string
 	printf("%d %d \n", num1, num2);
 }
