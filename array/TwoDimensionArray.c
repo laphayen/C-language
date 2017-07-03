@@ -9,9 +9,11 @@ void main()
 	// 2차원 배열 출력
 	int row;
 	int col;
-
+	
+	// 행
 	for (row = 0; row < 2; row++)
 	{
+		// 
 		for (col = 0; col < 2; col++)
 		{
 			printf("Array[%d][%d] = [%d]", row, col, Array[row][col]);
