@@ -13,7 +13,7 @@ void main()
 	// 행
 	for (row = 0; row < 2; row++)
 	{
-		// 
+		// 열
 		for (col = 0; col < 2; col++)
 		{
 			printf("Array[%d][%d] = [%d]", row, col, Array[row][col]);
