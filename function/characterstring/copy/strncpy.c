@@ -8,7 +8,7 @@ void main()
 {
 	// strncpy - 문자열로부터 일부만 복사
 	// destination에 전달된 값을 반환
-	char* strncpy(char *destination, const char *source, size_t num);
+	char * strncpy(char * destination, const char * source, size_t num);
 
 	char original[] = "11618nathan";
 
