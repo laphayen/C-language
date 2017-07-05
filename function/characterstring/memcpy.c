@@ -1,21 +1,21 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ¿­ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ð
+// ë¬¸ìžì—´ í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <string.h>
 
 void main()
 {
-	// memcpy - ¸Þ¸ð¸® ºí·Ï º¹»ç
-	// destination¿¡ Àü´ÞµÈ °ªÀ» ¹ÝÈ¯
+	// memcpy - ë©”ëª¨ë¦¬ ë¸”ë¡ ë³µì‚¬
+	// destinationì— ì „ë‹¬ëœ ê°’ì„ ë°˜í™˜
 	void * memcpy(void * destination, const void * source, size_t num);
 
 	char original[] = "11618nathan";
 
-	// º¹»çÇÒ ÆÄÀÏº¸´Ù ¹è¿­ÀÇ Å©±â ÀÌ»ó ÁöÁ¤ -> ¿À¹öÇÃ·Î¿ì ¹æÁö
+	// ë³µì‚¬í•  íŒŒì¼ë³´ë‹¤ ë°°ì—´ì˜ í¬ê¸° ì´ìƒ ì§€ì • -> ì˜¤ë²„í”Œë¡œìš° ë°©ì§€
 	char copy[20];
 
-	// (º¹»çÇÒ À§Ä¡, À§Ä¡);
+	// (ë³µì‚¬í•  ìœ„ì¹˜, ìœ„ì¹˜);
 	memcpy(copy, original, strlen(original) + 1);
 
 	puts(copy);
