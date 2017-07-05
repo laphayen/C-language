@@ -20,5 +20,3 @@ void main()
 
 	printf("%s \n", copy);
 }
-
-
