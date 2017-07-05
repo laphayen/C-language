@@ -8,7 +8,7 @@ void main()
 {
 	// strcpy - 문자열 복사 함수
 	// destination에 전달된 값을 반환
-	char* strcpy(char *destination, const char *source);
+	char * strcpy(char * destination, const char * source);
 
 	char original[] = "11618nathan";
 
