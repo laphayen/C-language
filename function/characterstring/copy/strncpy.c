@@ -6,8 +6,8 @@
 
 void main()
 {
-	// strcpy - 문자열 복사 함수
-	// dest에 전달된 값을 반환
+	// strncpy - 문자열로부터 일부만 복사
+	// destination에 전달된 값을 반환
 	char* strncpy(char *destination, const char *source, size_t num);
 
 	char original[] = "11618nathan";
@@ -15,7 +15,7 @@ void main()
 	// 복사할 파일보다 배열의 크기 이상 지정 -> 오버플로우 방지
 	char copy[20];
 
-	// (복사할 위치, 위치);
+	// (복사할 위치, 위치, 크기)
 	strncpy(copy, original, 5);
 
 	// NULL 삽입 - 끝 확인
