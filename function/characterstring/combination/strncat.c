@@ -1,13 +1,13 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ¿­ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ìì—´ í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <string.h>
 
 void main()
 {
-	// strncat - ÀÏºÎ ¹®ÀÚ¿­ °áÇÕ
-	// source¸¦ destinationµÚ¿¡ ºÙÀÓ
+	// strncat - ì¼ë¶€ ë¬¸ìì—´ ê²°í•©
+	// sourceë¥¼ destinationë’¤ì— ë¶™ì„
 	char * strncat(char * destination, const char * source, size_t num);
 
 	char original[20] = "11618";
