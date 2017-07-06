@@ -6,21 +6,19 @@
 
 void main()
 {
-	// 두 문자열 동일 확인 함수
-	// str1의 처음 num개의 문자를 str2의 처음 num개의 문자와 비교
-	int strcmp(const char * str1, const char * str2);
+	// strcmp - 두 문자열 비교
+	// ptr1의 처음 문자를 ptr2의 문자와 비교
+	int strcmp(const void * ptr1, const void * ptr2);
 
-	int strcmp(const char *s1, const char *s2);
-
-	char Array[] = "11618nathan";
+	char original[] = "11618nathan";
 	char copy[] = "11618nathan";
 
-	if (!strcmp(Array, copy))
+	if (!strcmp(original, copy))
 	{
-		printf("문자열 동일 \n");
+		puts("문자열 동일");
 	}
 	else
 	{
-		printf("문자열 동일X \n");
+		puts("문자열 동일X");
 	}
 }
