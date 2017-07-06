@@ -1,21 +1,21 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ¿­ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ð
+// ë¬¸ìžì—´ í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <string.h>
 
 void main()
 {
-	// memmove - ¸Þ¸ð¸® ºí·Ï ÀÌµ¿
-	// destination¿¡ Àü´ÞµÈ °ªÀ» ¹ÝÈ¯
+	// memmove - ë©”ëª¨ë¦¬ ë¸”ë¡ ì´ë™
+	// destinationì— ì „ë‹¬ëœ ê°’ì„ ë°˜í™˜
 	void * memmove(void * destination, const void * source, size_t num);
 
 	char original[20] = "nathan";
 
-	// º¹»çÇÒ ÆÄÀÏº¸´Ù ¹è¿­ÀÇ Å©±â ÀÌ»ó ÁöÁ¤ -> ¿À¹öÇÃ·Î¿ì ¹æÁö
+	// ë³µì‚¬í•  íŒŒì¼ë³´ë‹¤ ë°°ì—´ì˜ í¬ê¸° ì´ìƒ ì§€ì • -> ì˜¤ë²„í”Œë¡œìš° ë°©ì§€
 	char copy[20] = "11618";
 
-	// (º¹»çÇÒ À§Ä¡, À§Ä¡, Å©±â)
+	// (ë³µì‚¬í•  ìœ„ì¹˜, ìœ„ì¹˜, í¬ê¸°)
 	memmove(copy+4, original, 5);
 
 	puts(original);
