@@ -13,5 +13,5 @@ void main()
 	char str1[20] = "11618";
 	char str2[20] = "nathan";
 
-	printf("str1: %s \n", strcat(str1, str2));
+	puts(strcat(str1, str2));
 }
