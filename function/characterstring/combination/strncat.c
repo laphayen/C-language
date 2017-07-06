@@ -13,5 +13,5 @@ void main()
 	char original[20] = "11618";
 	char copy[20] = "nathan11618";
 
-	printf("original: %s \n", strncat(original, copy, 6));
+	puts(strncat(original, copy, 6));
 }
