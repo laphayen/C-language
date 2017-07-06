@@ -7,7 +7,7 @@
 void main()
 {
 	// strcmp - 두 문자열 비교
-	// ptr1의 처음 문자를 ptr2의 문자와 비교
+	// ptr1의 문자를 ptr2의 문자와 비교
 	int strcmp(const void * ptr1, const void * ptr2);
 
 	char original[] = "11618nathan";
