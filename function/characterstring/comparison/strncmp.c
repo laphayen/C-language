@@ -1,13 +1,13 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ¿­ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ìì—´ í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <string.h>
 
 void main()
 {
-	// strncmp - ÀÏºÎ ¹®ÀÚ¿­ ºñ±³
-	// str1ÀÇ ¹®ÀÚ¸¦ str2ÀÇ ¹®ÀÚ¿Í ºñ±³
+	// strncmp - ì¼ë¶€ ë¬¸ìì—´ ë¹„êµ
+	// str1ì˜ ë¬¸ìë¥¼ str2ì˜ ë¬¸ìì™€ ë¹„êµ
 	int strncmp(const char * str1, const char * str2, size_t num);
 
 	char original[] = "1161803";
@@ -15,10 +15,10 @@ void main()
 
 	if (!strncmp(original, copy, 5))
 	{
-		puts("¹®ÀÚ¿­ µ¿ÀÏ");
+		puts("ë¬¸ìì—´ ë™ì¼");
 	}
 	else
 	{
-		puts("¹®ÀÚ¿­ µ¿ÀÏX");
+		puts("ë¬¸ìì—´ ë™ì¼X");
 	}
 }
