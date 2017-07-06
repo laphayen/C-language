@@ -10,8 +10,8 @@ void main()
 	// str1의 문자를 str2의 문자와 비교
 	int strncmp(const char * str1, const char * str2, size_t num);
 
-	char original[] = "1161803";
-	char copy[] = "11618nathan";
+	char original[20] = "1161803";
+	char copy[20] = "11618nathan";
 
 	if (!strncmp(original, copy, 5))
 	{
