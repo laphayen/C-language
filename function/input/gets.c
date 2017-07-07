@@ -4,7 +4,7 @@
 
 void main()
 {
-	// gets - 문자열 입력 함수
+	// gets - 문자열 입력 함수 - Enter까지 문자열 변수로 입력
 	// 함수 원형
 	char * gets(char * str);
 
