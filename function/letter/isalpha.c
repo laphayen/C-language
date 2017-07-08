@@ -7,5 +7,5 @@
 void main()
 {
 	// isalpha - 알파벳 검사
-	printf("%d", isalpha('A'));
+	printf("%d \n", isalpha('A'));
 }
