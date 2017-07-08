@@ -1,2 +1,2 @@
 
-¹®ÀÚ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ð - #include <ctype.h>
+문자 함수 헤더 파일 선언 - #include <ctype.h>
