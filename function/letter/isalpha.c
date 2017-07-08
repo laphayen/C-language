@@ -1,11 +1,11 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ì í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <ctype.h>
 
 void main()
 {
-	// isalpha - ¾ËÆÄºª °Ë»ç
+	// isalpha - ì•ŒíŒŒë²³ ê²€ì‚¬
 	printf("%d", isalpha('A'));
 }
