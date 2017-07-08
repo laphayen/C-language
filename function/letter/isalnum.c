@@ -1,11 +1,11 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ì í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <ctype.h>
 
 void main()
 {
-	// isalnum - ¾ËÆäºª or ¼ıÀÚÀÎÁö °Ë»ç
+	// isalnum - ì•Œí˜ë²³ or ìˆ«ìì¸ì§€ ê²€ì‚¬
 	printf("%d", isalnum(1));
 }
