@@ -1,12 +1,12 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ¿­ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ìì—´ í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <string.h>
 
 void main()
 {
-	// strchr - ÇØ´ç Ã¹ ¹øÂ° ¹®ÀÚ·Î ÀÌµ¿
+	// strchr - í•´ë‹¹ ì²« ë²ˆì§¸ ë¬¸ìë¡œ ì´ë™
 	char * strchr(char * str, int character);
 
 	char original[] = "11618nathan";
