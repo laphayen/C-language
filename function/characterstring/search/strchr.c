@@ -11,5 +11,6 @@ void main()
 
 	char original[] = "11618nathan";
 
+	// 주소 위치부터 끝까지 출력
 	printf("%s \n", strchr(original, 'n'));
 }
