@@ -1,16 +1,16 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ¿­ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ìì—´ í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <string.h>
 
 void main()
 {
-	// strrchr - µÚ¿¡¼­ºÎÅÍ ÇØ´ç Ã¹ ¹øÂ° ¹®ÀÚ·Î ÀÌµ¿
+	// strrchr - ë’¤ì—ì„œë¶€í„° í•´ë‹¹ ì²« ë²ˆì§¸ ë¬¸ìë¡œ ì´ë™
 	char * strrchr(char * str, int character);
 
 	char original[] = "11618nathan";
 
-	// ÁÖ¼Ò À§Ä¡ºÎÅÍ ³¡±îÁö Ãâ·Â
+	// ì£¼ì†Œ ìœ„ì¹˜ë¶€í„° ëê¹Œì§€ ì¶œë ¥
 	printf("%s \n", strrchr(original, 'n'));
 }
