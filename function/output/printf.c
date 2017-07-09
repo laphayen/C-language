@@ -1,4 +1,5 @@
 
+// 헤더 파일 선언
 #include <stdio.h>
 
 void main()
@@ -11,6 +12,6 @@ void main()
 	num2 = printf("nathan\n");
 	num3 = printf("GitHub\n");
 
-	// 문자열 길이 반환 - \n 포함 - string
-	printf("%d %d \n", num1, num2);
+	// 문자열 길이 반환 - \n 포함
+	printf("%d %d %d \n", num1, num2, num3);
 }
