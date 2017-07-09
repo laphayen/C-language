@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // 헤더 파일 선언
-#include <malloc.h>
+#include <stdlib.h>
 
 void main()
 {
