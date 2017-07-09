@@ -1,12 +1,12 @@
 
 #include <stdio.h>
 
-// Çì´õ ÆÄÀÏ ¼±¾ð
+// í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <malloc.h>
 
 void main()
 {
-	// malloc() - µ¿Àû ¸Þ¸ð¸® ÇÒ´ç - µ¿ÀûÀ¸·Î ¸Þ¸ð¸®¸¦ ÇÒ´çÇÏ¿© Æ÷ÀÎÅÍ¸¦ º¯¼ö¿¡ ÀúÀå
+	// malloc() - ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ - ë™ì ìœ¼ë¡œ ë©”ëª¨ë¦¬ë¥¼ í• ë‹¹í•˜ì—¬ í¬ì¸í„°ë¥¼ ë³€ìˆ˜ì— ì €ìž¥
 	void * malloc(size_t size);
 
 	int * p;
