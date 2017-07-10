@@ -7,9 +7,9 @@
 void main()
 {
 	// calloc() - 동적 메모리 할당 - 동적으로 메모리를 0으로 할당하여 포인터를 변수에 저장
-	void * calloc(size_t size);
+	void * calloc(size_t num, size_t size);
 
-	int * p = (int*)calloc(sizeof(int));
+	int * p = (int*)calloc(sizeof(int)); 
 
 	printf("%d \n", *p);
 
