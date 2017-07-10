@@ -1,12 +1,12 @@
 
 #include <stdio.h>
 
-// Çì´õ ÆÄÀÏ ¼±¾ð
+// í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <stdlib.h>
 
 void main()
 {
-	// calloc() - µ¿Àû ¸Þ¸ð¸® ÇÒ´ç - µ¿ÀûÀ¸·Î ¸Þ¸ð¸®¸¦ 0À¸·Î ÇÒ´çÇÏ¿© Æ÷ÀÎÅÍ¸¦ º¯¼ö¿¡ ÀúÀå
+	// calloc() - ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ - ë™ì ìœ¼ë¡œ ë©”ëª¨ë¦¬ë¥¼ 0ìœ¼ë¡œ í• ë‹¹í•˜ì—¬ í¬ì¸í„°ë¥¼ ë³€ìˆ˜ì— ì €ìž¥
 	void * calloc(size_t size);
 
 	int * p = (int*)calloc(sizeof(int)); 
@@ -15,6 +15,6 @@ void main()
 
 	printf("%d \n", *p);
 
-	// ÇÒ´Þ ¸Þ¸ð¸® ÇØÁ¦
+	// í• ë‹¬ ë©”ëª¨ë¦¬ í•´ì œ
 	free(p);
 }
