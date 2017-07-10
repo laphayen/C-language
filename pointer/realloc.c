@@ -1,12 +1,12 @@
 
 #include <stdio.h>
 
-// Çì´õ ÆÄÀÏ ¼±¾ğ
+// í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <stdlib.h>
 
 void main()
 {
-	// realloc() - µ¿Àû ¸Ş¸ğ¸® ÀçÇÒ´ç - ±âÁ¸ÀÇ ÇÒ´ŞµÈ ¸Ş¸ğ¸®¸¦ º¯°æ
+	// realloc() - ë™ì  ë©”ëª¨ë¦¬ ì¬í• ë‹¹ - ê¸°ì¡´ì˜ í• ë‹¬ëœ ë©”ëª¨ë¦¬ë¥¼ ë³€ê²½
 	void *realloc(void *memblock, size_t size);
 
 	int * p = (int*)realloc(p, _msize(p) * 2);
@@ -14,6 +14,6 @@ void main()
 	printf("%d byte \n", _msize(p));
 	printf("%d \n", *p);
 
-	// ÇÒ´Ş ¸Ş¸ğ¸® ÇØÁ¦
+	// í• ë‹¬ ë©”ëª¨ë¦¬ í•´ì œ
 	free(p);
 }
