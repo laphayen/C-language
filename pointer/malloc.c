@@ -10,7 +10,7 @@ void main()
 	void * malloc(size_t size);
 
 	int * p = (int*)malloc(sizeof(int));
-	*p = 1;
+	*p = 11618;
 
 	printf("%d byte \n", _msize(p));
 	
