@@ -16,6 +16,6 @@ void main()
 	
 	printf("%d \n", *p);
 
-	// 할달 메모리 해제
+	// 할 메모리 해제
 	free(p);
 }
