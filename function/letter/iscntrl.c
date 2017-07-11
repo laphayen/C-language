@@ -1,11 +1,11 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ì í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <ctype.h>
 
 void main()
 {
-	// iscntrl - Á¦¾î¹®ÀÚ °Ë»ç
+	// iscntrl - ì œì–´ë¬¸ì ê²€ì‚¬
 	printf("%d \n", iscntrl('if'));
 }
