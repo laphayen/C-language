@@ -1,5 +1,5 @@
 
-// ±¸Á¶Ã¼
+// Â±Â¸ÃÂ¶ÃƒÂ¼
 
 struct information
 {
