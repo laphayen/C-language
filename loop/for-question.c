@@ -1,14 +1,14 @@
 
 #include <stdio.h>
 
-// 1 - for �հ�
+// 1 - for ÇÕ°è
 int main()
 {
 	int count = 1;
 	int sum = 0;
 	int input = 0;
 
-	printf("�Է�: ");
+	printf("ÀÔ·Â: ");
 	scanf("%d", &input);
 
 	for (count = 1; count <= input; count++)
@@ -16,5 +16,5 @@ int main()
 		sum += count;
 	}
 
-	printf("�հ�: %d \n", sum);
+	printf("ÇÕ°è: %d \n", sum);
 }
