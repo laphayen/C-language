@@ -1,14 +1,14 @@
 
 #include <stdio.h>
 
-// 1 - while ÇÕ°è
+// 1 - while í•©ê³„
 int main()
 {
 	int count = 1;
 	int sum = 0;
 	int input = 0;
 
-	printf("ÀÔ·Â: ");
+	printf("ìž…ë ¥: ");
 	scanf("%d", &input);
 
 	while (count<=input)
@@ -16,5 +16,5 @@ int main()
 		sum += count++;
 	}
 
-	printf("ÇÕ°è: %d \n", sum);
+	printf("í•©ê³„: %d \n", sum);
 }
