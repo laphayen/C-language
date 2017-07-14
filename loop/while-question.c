@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 // 1 - while 합계
-int main()
+void one()
 {
+	puts("- 1번 -");
 	int count = 1;
 	int sum = 0;
 	int input = 0;
@@ -11,10 +12,37 @@ int main()
 	printf("입력: ");
 	scanf("%d", &input);
 
-	while (count<=input)
+	while (count <= input)
 	{
 		sum += count++;
 	}
 
 	printf("합계: %d \n", sum);
+} 
+
+
+// 2 - while * 출력
+void two()
+{
+	puts("- 2번 -");
+	int i = 0;
+	int j = 1;
+	while (i <= 5)
+	{
+		while (j <= i)
+		{
+			printf("*");
+			j++;
+		}
+		i++;
+		puts("");
+	}
+
+}
+
+
+void main()
+{
+	one();
+	two();
 }
