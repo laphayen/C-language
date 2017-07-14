@@ -25,10 +25,11 @@ void one()
 void two()
 {
 	puts("- 2번 -");
-	int i = 0;
-	int j = 1;
+	int i = 1;
+	int j = 0;
 	while (i <= 5)
 	{
+		j = 1;
 		while (j <= i)
 		{
 			printf("*");
