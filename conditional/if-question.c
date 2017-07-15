@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-// 1 - ´ë¹®ÀÚ ÀüÈ¯
+// 1 - 대문자 전환
 void one()
 {
 	char input;
