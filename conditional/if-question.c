@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-// 1 - �빮�� ��ȯ
+// 1 - ´ë¹®ÀÚ ÀüÈ¯
 void one()
 {
 	char input;
