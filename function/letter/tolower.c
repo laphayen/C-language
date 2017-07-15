@@ -1,16 +1,16 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ì í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <ctype.h>
 
 void main()
 {
 	char input;
 
-	printf("´ë¹®ÀÚ ÀÔ·Â: ");
+	printf("ëŒ€ë¬¸ì ì…ë ¥: ");
 	scanf("%c", &input);
 
-	// tolower - ¼Ò¹®ÀÚ·Î º¯°æ
+	// tolower - ì†Œë¬¸ìë¡œ ë³€ê²½
 	printf("%c \n", tolower(input));
 }
