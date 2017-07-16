@@ -1,12 +1,12 @@
 
 #include <stdio.h>
 
-// Çì´õ ÆÄÀÏ ¼±¾ğ
+// í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <stdlib.h>
 
 void main()
 {
-	// free() - ÇÒ´ç ¸Ş¸ğ¸® ÇØÁ¦ 
+	// free() - í• ë‹¹ ë©”ëª¨ë¦¬ í•´ì œ 
 
 	int * p = (int*)malloc(sizeof(int));
 
