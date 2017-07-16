@@ -1,16 +1,16 @@
 
 #include <stdio.h>
 
-// ¹®ÀÚ ÇÔ¼ö Çì´õ ÆÄÀÏ ¼±¾ğ
+// ë¬¸ì í•¨ìˆ˜ í—¤ë” íŒŒì¼ ì„ ì–¸
 #include <ctype.h>
 
 void main()
 {
 	char input;
 
-	printf("¼Ò¹®ÀÚ ÀÔ·Â: ");
+	printf("ì†Œë¬¸ì ì…ë ¥: ");
 	scanf("%c", &input);
 
-	// toupper - ´ë¹®ÀÚ·Î º¯°æ
+	// toupper - ëŒ€ë¬¸ìë¡œ ë³€ê²½
 	printf("%c \n", toupper(input));
 }
