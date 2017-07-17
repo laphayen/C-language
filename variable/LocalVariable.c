@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int puls(void)
+int plus(void)
 {
 	int num = 10;
 	num++;
