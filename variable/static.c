@@ -3,7 +3,7 @@
 
 void run()
 {
-	// static - ÇÔ¼ö ¾È¿¡¼­ Á¢±Ù - 1¹ø ÃÊ±âÈ­ - Á¾·á±îÁö ¸Ş¸ğ¸® Á¸Àç
+	// static - í•¨ìˆ˜ ì•ˆì—ì„œ ì ‘ê·¼ - 1ë²ˆ ì´ˆê¸°í™” - ì¢…ë£Œê¹Œì§€ ë©”ëª¨ë¦¬ ì¡´ì¬
 	static int staticNum = 0;
 	int num = 0;
 	printf("static: %d, local: %d \n", staticNum++, num++);
