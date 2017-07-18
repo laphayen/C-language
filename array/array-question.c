@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-// 1 - µî¼ö
+// 1 - ÂµÃ®Â¼Ã¶
 void one()
 {
 	int i;
