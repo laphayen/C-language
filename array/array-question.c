@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-// 1 - µî¼ö
+// 1 - 등수
 void one()
 {
 	int i;
