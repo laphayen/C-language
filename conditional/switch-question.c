@@ -1,20 +1,20 @@
 
 #include <stdio.h>
 
-// 1 - Ȧ¦
+// 1 - È¦Â¦
 void one()
 {
 	int input;
 
-	printf("�Է�: ");
+	printf("ÀÔ·Â: ");
 	scanf("%d", &input);
 
 	switch (input%2)
 	{
 	case 0:
-		printf("¦�� \n");
+		printf("Â¦¼ö \n");
 	case 1:
-		printf("Ȧ�� \n");
+		printf("È¦¼ö \n");
 	}
 }
 
