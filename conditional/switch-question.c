@@ -1,20 +1,20 @@
 
 #include <stdio.h>
 
-// 1 - È¦Â¦
+// 1 - 홀짝
 void one()
 {
 	int input;
 
-	printf("ÀÔ·Â: ");
+	printf("입력: ");
 	scanf("%d", &input);
 
 	switch (input%2)
 	{
 	case 0:
-		printf("Â¦¼ö \n");
+		printf("짝수 \n");
 	case 1:
-		printf("È¦¼ö \n");
+		printf("홀수 \n");
 	}
 }
 
