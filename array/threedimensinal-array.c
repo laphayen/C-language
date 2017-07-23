@@ -3,8 +3,9 @@
 
 void main()
 {
-	// 3Â÷¿ø ¹è¿­
+	// 3차원 배열
 	int array[3][3][3] = { { 1,2,3 }, { 4,5,6 }, { 7,8,9 } };
 
-	printf("¹è¿­ Å©±â: %d \n", sizeof(array));
+	// 3차월 배열 크기
+	printf("배열 크기: %d \n", sizeof(array));
 }
