@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-// º¯È¯ ÇÔ¼ö
+// ë³€í™˜ í•¨ìˆ˜
 void swap(int **dptr1, int **dptr2)
 {
 	int *temp = *dptr1;
