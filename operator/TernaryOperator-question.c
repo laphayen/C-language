@@ -1,12 +1,12 @@
 
 #include <stdio.h>
 
-// 1 - Àý´ë°ª
+// 1 - ì ˆëŒ€ê°’
 void one()
 {
 	int input = 0;
 
-	printf("ÀÔ·Â: ");
+	printf("ìž…ë ¥: ");
 	scanf("%d", &input);
 
 	input = input < 0 ? -input : input;
@@ -15,12 +15,12 @@ void one()
 }
 
 
-// 2 - ´ë¹®ÀÚ º¯È¯
+// 2 - ëŒ€ë¬¸ìž ë³€í™˜
 void two()
 {
 	char chr;
 
-	printf("ÀÔ·Â: ");
+	printf("ìž…ë ¥: ");
 	scanf("%c", &chr);
 
 	chr = (chr >= 'a' && chr <= 'z') ? chr - 32 : chr;
