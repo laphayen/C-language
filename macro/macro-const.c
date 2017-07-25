@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-// ¸ÅÅ©·Î »ó¼ö - ¼±ÇàÃ³¸®
+// 매크로 상수 - 선행처리
 #define name "11618nathan"
 
 void main()
