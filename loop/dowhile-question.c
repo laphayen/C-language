@@ -8,9 +8,9 @@ void main()
 
 	do
 	{
-		printf("ÀÔ·Â: ");
+		printf("입력: ");
 		scanf("%d", &num);
 		sum += num;
 	} while (num != 0);
-	printf("ÇÕ°è: %d \n", sum); 
+	printf("합계: %d \n", sum); 
 }
