@@ -8,9 +8,9 @@ void main()
 
 	do
 	{
-		printf("�Է�: ");
+		printf("ÀÔ·Â: ");
 		scanf("%d", &num);
 		sum += num;
 	} while (num != 0);
-	printf("�հ�: %d \n", sum); 
+	printf("ÇÕ°è: %d \n", sum); 
 }
