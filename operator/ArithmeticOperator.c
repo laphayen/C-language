@@ -26,4 +26,6 @@ int main()
 	printf("num2 /= 3 = &d \n", num2);
 	num1 %= 2;
 	printf("num1 %= 2 = &d \n", num1);
+	
+	return 0;
 }
