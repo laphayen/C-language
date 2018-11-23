@@ -1,3 +1,5 @@
+// sizeof() - 자료형의 크기 확인
+// 연산자O, 함수X
 
 #include <stdio.h>
 
